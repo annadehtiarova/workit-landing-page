@@ -4,6 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <style type="text/tailwindcss">
+         @layer base{
+            p{
+                @apply p-8 text-black;
+            }
+            .primary-btn{
+                @apply w-48 py-4 px-8 bg-blue-500 rounded-sm text-white hover:bg-blue-900;
+            }
+            .secondary-btn{
+                @apply w-48 py-3 px-8 border-4 border-blue-500 rounded-sm text-blue-500 hover:bg-blue-200;
+            }
+        }
+      </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
     
