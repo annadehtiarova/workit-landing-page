@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Workit Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <style type="text/tailwindcss">
          @layer base{
-            p{
-                @apply p-8 text-black;
-            }
-            .primary-btn{
-                @apply w-48 py-4 px-8 bg-blue-500 rounded-sm text-white hover:bg-blue-900;
-            }
-            .secondary-btn{
-                @apply w-48 py-3 px-8 border-4 border-blue-500 rounded-sm text-blue-500 hover:bg-blue-200;
-            }
+            
         }
       </style>
     <script>
@@ -24,7 +23,8 @@
           theme: {
             extend: {
               colors: {
-                
+                lightGreen: '#00ff00',
+            
               }
             }
           }
@@ -32,6 +32,52 @@
       </script>
 </head>
 <body>
-    
+    <div class="container">
+        <nav>
+            <img src="assets/images/logo-light.svg" alt="logo-light">
+            <p>Apply for access</p>
+        </nav>
+        <header>
+            <h1>Data tailored to your needs.</h1>
+            <button>Learn more</button>
+            <img src="assets/images/bg-pattern-1.svg" alt="bg-pattern-1">
+            <img src="assets/images/bg-pattern-2.svg" alt="bg-pattern-2">
+            <img src="assets/images/image-hero.webp" alt="image-hero">
+        </header>
+        <section>
+            <div>
+                <h3>1</h3>
+                <h3>Actionable insights</h3>
+                <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+            </div>
+            <div>
+                <h3>2</h3>
+                <h3>Data-driven decisions</h3>
+                <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+            </div>
+            <div>
+                <h3>3</h3>
+                <h3>Always affordable</h3>
+                <p>Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
+            </div>
+        </section>
+        <section>
+            <img src="assets/images/image-founder.webp" alt="image-founder">
+            <div>
+                <h1>Be the first to test</h1>
+                <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
+                <button>Apply for access</button>
+                <img src="assets/images/bg-pattern-3.svg" alt="bg-pattern-3">
+            </div>
+        </section>
+        <footer>
+            <img src="assets/images/logo-dark.svg" alt="logo-dark">
+            <div>
+                <img src="assets/images/icon-facebook.svg" alt="icon-facebook">
+                <img src="assets/images/icon-twitter.svg" alt="icon-twitter">
+                <img src="assets/images/icon-instagram.svg" alt="icon-instagram">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
