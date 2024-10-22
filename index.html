@@ -21,11 +21,32 @@
     <script>
         tailwind.config = {
           theme: {
-            extend: {
+            fontSize: {
+                'preset-5': ['18px', '1.5'],
+                'preset-4': ['18px', '1.8'],
+                'preset-3': ['32px', '1.2'],
+                'preset-2': ['56px', '1.2'],
+                'preset-1': ['80px', '1'],
+              },
+              fontFamily: {
+                sans: ['Manrope', 'sans-serif'],
+                serif: ['Fraunces', 'serif'],
+              },
               colors: {
-                lightGreen: '#00ff00',
-            
-              }
+                green: '#44FFA1',
+                purple: {
+                    900: '#24053E',
+                    500: '#584D62',
+                    100: '#FCF8FF',
+                },
+                white: '#FFFFFF',
+              },
+            extend: {
+                spacing: {
+                    'p-40': '168px',
+                    'p-74': '296px',
+
+                }
             }
           }
         }
@@ -35,7 +56,7 @@
     <div class="container">
         <nav>
             <img src="assets/images/logo-light.svg" alt="logo-light">
-            <p>Apply for access</p>
+            <p class="">Apply for access</p>
         </nav>
         <header>
             <h1>Data tailored to your needs.</h1>
