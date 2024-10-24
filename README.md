@@ -32,7 +32,7 @@ I was provided with a Figma file.
 - Tailwind CSS
 
 ### Links
-- Solution URL: [news-homepage](https://annadehtiarova.github.io/markit-landing-page/)
+- Solution URL: [workit-landing-page](https://annadehtiarova.github.io/markit-landing-page/)
 
 ## Author
 I am a UX/UI Designer who likes to code.
