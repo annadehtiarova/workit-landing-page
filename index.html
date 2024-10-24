@@ -24,10 +24,14 @@
             fontSize: {
                 'preset-5': ['18px', '1.5'],
                 'preset-4': ['18px', '1.8'],
+                'preset-4-tablet': ['16px', '1.8'],
+                'preset-4-mobile': ['16px', '1.8'],
                 'preset-3': ['32px', '1.2'],
                 'preset-3-tablet': ['28px', '1.2'],
                 'preset-3-mobile': ['24px', '1.2'],
                 'preset-2': ['56px', '1.2'],
+                'preset-2-tablet': ['48px', '1.2'],
+                'preset-2-mobile': ['32px', '1.2'],
                 'preset-1': ['80px', '1'],
                 'preset-1-tablet': ['60px', '1'],
                 'preset-1-mobile': ['48px', '1'],
@@ -100,13 +104,13 @@
         </div>
         </section>
         <section class="relative w-[1120px] h-[700px] mx-auto">
-            <img class=" absolute top-[112px] left-[160px] w-[477px]" src="assets/images/image-founder.webp" alt="image-founder">
-            <div class=" absolute top-[280px] left-[550px] w-[730px] h-[411px] bg-purple-900 text-white flex flex-col justify-end gap-8 p-16">
-                <h1 class="text-preset-2 font-serif">Be the first to test</h1>
-                <p class="text-preset-4 font-sans">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
+            <img class=" absolute top-[112px] left-[160px] w-[477px] max-[768px]:w-[280px] max-[768px]:left-[43px] max-[375px]:w-[280px] max-[375px]:top-[50px]" src="assets/images/image-founder.webp" alt="image-founder">
+            <div class=" absolute top-[280px] left-[550px] w-[730px] max-[768px]:w-[504px] max-[768px]:left-[220px] max-[375px]:w-[335px] max-[768px]:p-14 max-[375px]:p-8 max-[375px]:h-[393px] max-[375px]:left-[24px] max-[375px]:items-center h-[411px] bg-purple-900 text-white flex flex-col justify-end gap-8 p-16">
+                <h1 class="text-preset-2 font-serif max-[768px]:text-preset-2-tablet max-[375px]:text-preset-2-mobile">Be the first to test</h1>
+                <p class="text-preset-4 font-sans max-[768px]:text-preset-4-tablet max-[375px]:text-preset-4-mobile max-[375px]:text-center">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
                 <button class="w-[207px] bg-green text-purple-900 px-8 py-3 font-bold hover:text-green hover:bg-purple-900 border-2 border-green">Apply for access</button>
             </div>
-            <img class="absolute left-[952px] top-[544px]" src="assets/images/bg-pattern-3.svg" alt="bg-pattern-3">
+            <img class="absolute left-[952px] top-[544px] max-[768px]:left-[490px] max-[375px]:invisible" src="assets/images/bg-pattern-3.svg" alt="bg-pattern-3">
         </section>
         <footer class="w-screen mx-auto">
             <div class="flex flex-col gap-14 py-[112px] justify-center items-center">
