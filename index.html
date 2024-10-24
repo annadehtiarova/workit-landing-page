@@ -27,6 +27,8 @@
                 'preset-3': ['32px', '1.2'],
                 'preset-2': ['56px', '1.2'],
                 'preset-1': ['80px', '1'],
+                'preset-1-tablet': ['60px', '1'],
+                'preset-1-mobile': ['48px', '1'],
               },
               fontFamily: {
                 sans: ['Manrope', 'sans-serif'],
@@ -55,19 +57,19 @@
 <body class="p-0 m-0">
     <div class="container">
         <div class="w-screen h-[771px] bg-purple-900 text-white">
-            <nav class="w-[1120px] mx-auto flex flex-row items-center justify-between pt-14">
+            <nav class="w-[1120px] max-[768px]:w-[680px] max-[375px]:w-[335px] mx-auto flex flex-row items-center justify-between pt-14">
                 <img class="h-6" src="assets/images/logo-light.svg" alt="logo-light">
                 <div class="border-b-[3px] border-green cursor-pointer hover:text-green">Apply for access</div>
             </nav>
             <header class="text-center overflow-hidden">
-                    <h1 class="w-[650px] mx-auto text-preset-1 font-serif pt-14">Data <span class="border-b-[3px] border-green">tailored</span> to your needs.</h1>
+                    <h1 class="w-[650px] mx-auto text-preset-1 max-[768px]:text-preset-1-tablet max-[375px]:text-preset-1-mobile max-[375px]:w-[335px] font-serif pt-14">Data <span class="border-b-[3px] border-green">tailored</span> to your needs.</h1>
                     <button class="bg-green text-purple-900 px-8 py-3 mt-10 font-bold hover:text-green hover:bg-purple-900 border-2 border-green">Learn more</button>
                 
                 <div >
-                    <img class="absolute top-20 left-[-50px]" src="assets/images/bg-pattern-1.svg" alt="bg-pattern-1">
-                    <img class="absolute right-[-50px] " src="assets/images/bg-pattern-2.svg" alt="bg-pattern-2">
+                    <img class="absolute top-20 left-[-50px] max-[768px]:left-[-220px] max-[375px]:invisible" src="assets/images/bg-pattern-1.svg" alt="bg-pattern-1">
+                    <img class="absolute right-[-50px] max-[768px]:right-[-100px] max-[375px]:invisible" src="assets/images/bg-pattern-2.svg" alt="bg-pattern-2">
                 </div>
-                <img class="w-[767px] absolute top-[491px] right-[400px]" src="assets/images/image-hero.webp" alt="image-hero">
+                <img class="w-[767px] max-[768px]:w-[602px] max-[768px]:right-[14px] max-[375px]:w-[360px] absolute top-[491px] right-[400px]" src="assets/images/image-hero.webp" alt="image-hero">
             </header>
         </div>
         <section class="w-screen mx-auto pt-[288px] pb-[168px] bg-purple-100">
